@@ -1,6 +1,6 @@
 {
   "name": "Nginx Proxy Manager",
-  "version": "0.8.3",
+  "version": "0.8.1",
   "slug": "nginxproxymanager",
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
   "url": "https://github.com/northspb/addon-nginx-proxy-manager",
@@ -39,5 +39,5 @@
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
   },
-  "image": "northspb/nginxproxymanager-{arch}"
+  "image": "hassioaddons/nginxproxymanager-{arch}"
 }
